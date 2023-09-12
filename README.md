@@ -13,7 +13,7 @@ A simple REST API capable of CRUD operations on a "person" resource that interfa
 ## Usage
 clone project repository:
 ```bash
-git clone https://github.com/nicholasikiroma/crudApp.git
+git clone https://github.com/Tesvin/hng-task-2.git
 cd crudApp
 ```
 Install dependencies:
