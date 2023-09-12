@@ -21,6 +21,9 @@ app.use(express.urlencoded({ extended: true }));
 /** api routes */
 app.use('/api', router)
 
+app.get('/home', (req, res) => {
+    res.send('welcome home')
+})
 
 /** start server only when we have a valid connection*/
 personDb().then(() => {

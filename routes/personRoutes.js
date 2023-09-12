@@ -11,4 +11,8 @@ router.post('/', createPerson);
 
 router.get('/:userId', getPerson);
 
+router.put('/:userId', updatePerson);
+
+router.delete('/:userId', deletePerson);
+
 module.exports = router;
