@@ -12,20 +12,23 @@ A simple REST API capable of CRUD operations on a "person" resource that interfa
 - [Document](https://github.com/Tesvin/hng-task-2/blob/main/DOCUMENTATION.md)
 ## Usage
 clone project repository:
-git clone https://github.com/Tesvin/hng-task-2.git
-
-cd hng-task-2
-
+```bash
+git clone https://github.com/nicholasikiroma/crudApp.git
+cd crudApp
+```
 Install dependencies:
-
+```bash
 npm install
-
+```
 Create a .env with the values:
-
+```bash
 MONGO_URL=<replace-with-mongodb-connection-string>
+```
 
 Start up server:
 
+```bash
 npm run start
+```
 
 The API will be available at http://localhost:PORT/api
