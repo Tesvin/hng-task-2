@@ -14,7 +14,7 @@ A simple REST API capable of CRUD operations on a "person" resource that interfa
 clone project repository:
 ```bash
 git clone https://github.com/Tesvin/hng-task-2.git
-cd crudApp
+cd hng-task-2
 ```
 Install dependencies:
 ```bash
